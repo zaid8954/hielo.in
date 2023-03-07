@@ -1,0 +1,328 @@
+body{
+
+	font-family: 'Poppins', sans-serif;
+	background: lightgray;
+
+}
+
+#my-navigation{
+	background:none;
+	border: 0px;
+	width: 100%;
+}
+
+#my-navigation .navbar-toggle{
+	display: block;
+	border: 0;
+}
+
+#my-navigation .navbar-toggle:hover{
+	background: none;
+	cursor: pointer;
+}
+
+#my-navigation .navbar-header{
+	float: none;
+}
+
+#my-navigation .navbar-right{
+	float: left !important;
+}
+
+
+.icon-bar-left{
+	float: left;
+	margin-right: 10px;
+}
+
+.icon-right{
+	float: right;
+}
+
+
+#my-navigation .icon-bar{
+	background: white;
+}
+
+.icon-right{
+	color: white;
+}
+
+#my-navigation ul li a{
+	color: white;
+	margin-left: 10px;
+}
+
+#my-navigation .navbar-brand{
+	color: white;
+}
+
+#by-templated{
+	color: lightgray;
+}
+
+.carousel-inner .my-items1{
+	background: url("../img/slide01.jpg");
+	height: 100vh;
+	width: 100vw;
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.carousel-inner .my-items2{
+	background: url("../img/slide02.jpg");
+	height: 100vh;
+	width: 100%;
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.carousel-inner .my-items3{
+	background: url("../img/slide03.jpg");
+	height: 100vh;
+	width: 100vw;
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.carousel-inner .my-items4{
+	background: url("../img/slide04.jpg");
+	height: 100vh;
+	width: 100vw;
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#carousel-example-generic{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+.my-container{
+	padding: 0;
+	height: 100vh;
+}
+
+#my-navigation{
+	z-index: 10;
+}
+
+
+.banner{
+	position: relative;
+	top: 230px;
+	width: 100%;
+	margin: 0 auto;
+	color: white;
+}
+
+.banner hr{
+	width: 35%;
+	margin: 0 auto;
+	
+}
+
+.banner p{
+	letter-spacing: 5px;
+	
+}
+
+.banner h1{
+	font-size: 100px;
+	font-weight: 300;
+
+}
+
+.my-secound-container{
+	padding: 45px 45px;
+	color: gray;
+
+}
+
+.my-secound-container img{
+	width: 100%;
+}
+
+.my-secound-container button{
+	margin-left: 40%;
+}
+
+
+.my-secound-container .margin-top{
+	margin-top: 25px;
+	letter-spacing: 5px;
+
+}
+
+
+.left{
+	background: white;
+	padding-left: 0;
+	padding-bottom: 30px;
+	
+	
+}
+
+
+.right{
+	background: white;
+	padding-right: 0;
+	padding-bottom: 30px;
+
+	
+}
+
+.line-height{
+	line-height: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	color: gray;
+}
+
+
+
+.third-section{
+	background: url("../img/slide04.jpg");
+	height: 200px;
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.my-third-container{
+	text-align: center;
+	position: relative;
+	top: 50px;
+	color: lightgray;
+
+}
+
+.my-third-container p{
+	letter-spacing: 3px;
+}
+
+.my-third-container h3{
+	color: white;
+	font-weight: 100;
+}
+
+.left1 img{
+	width: 100%;
+	border: 5px solid white;
+}
+
+.left2 img{
+	width: 100%;
+	border: 5px solid white;
+}
+
+.right1 img{
+	width: 100%;
+	border: 5px solid white;
+}
+
+.right2 img{
+	width: 100%;
+	border: 5px solid white;
+}
+
+.left1, .left2{
+	margin-bottom: 30px;
+}
+
+.right1, .right2{
+	margin-bottom: 30px;
+}
+
+.center-last-text{
+	text-align: center;
+	padding: 30px 30px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.center-last-text p{
+	letter-spacing: 3px;
+	color: gray;
+}
+
+.center-last-text h3{
+	color: white;
+	font-weight: 100;
+}
+
+.padding-left{
+	padding-left: 40px;
+}
+
+.padding-right{
+	padding-right: 40px;
+}
+
+.footer{
+	width: 100%;
+	background: black;
+	height: 120px;
+}
+
+.my-footer{
+	text-align: center;
+	color: gray;
+	position: relative;
+	top: 15px;
+	
+}
+
+.fa{
+	font-size: 30px;
+	color: gray;
+	margin: 10px;
+}
+
+@media only screen and (max-width:992px){
+
+.padding-left{
+	padding-left: 15px;
+}
+
+.padding-right{
+	padding-right: 15px;
+}
+
+.left{
+	margin-bottom: 20px;
+}
+}
+
+@media only screen and (max-width:400px){
+
+.banner h1{
+	font-size: 60px;
+	font-weight: 300;
+
+}
+
+.my-secound-container{
+	width: 100%;
+	padding: 30px 0px;
+
+}
+
+.my-secound-container button{
+	margin: 0 auto;
+	margin-left: 125px;
+}
+
+
+}
